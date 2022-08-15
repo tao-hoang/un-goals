@@ -18,36 +18,38 @@ body{
     background-color:white;
     text-decoration: none; 
 }
-/* Head Nav Bar */
-#top-nav{
-    background-color: #ba6e6e;
-    margin: 10px;
-    /* position: fixed; */
-    padding-left: 75%;
-   
-}
-/* style */
-#top-nav ul{
-    list-style: none; 
-}
+
 /* display */
-#top-nav ul{
-    display: flex;
-    justify-content: right;
+
+.top-nav{
+    display: grid;
+    grid-template-columns: 2fr 2fr; 
     
 }
+.top-nav.resources{
+    padding-left: 500px;
+}
+
+
+.top-nav ul{
+    list-style: none; 
+    background-color: #466AC7;
+    padding: 10px;
+}
+
+
 /* hovering time and text color */
- #top-nav ul li a{
-    display: block;
+ .top-nav a{
+    /* display: block; */
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
     transition: all 0.5s; 
     
    
 }
 /* hover plus color */
-#top-nav ul li a:hover{
-    background-color: rgb(194, 197, 126);
+.top-nav a:hover{
+    background-color: rgb(71, 170, 107);
 }
 
 /* Main */
@@ -58,6 +60,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
     
 }
 .title{
