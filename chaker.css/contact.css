@@ -1,0 +1,12 @@
+.contents{
+    border: 2px solid rgb(158, 56, 154);
+  
+}
+:root{
+    --primary-color:gold;
+    --primary-color-contrast:gray;
+}
+.container{
+    
+    background-color: azure;
+}
