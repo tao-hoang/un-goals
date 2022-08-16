@@ -15,35 +15,33 @@ body{
     font-family:sans-serif;
     font-size: 18px;
     font-weight: 400;
-    background-color:white;
-    text-decoration: none; 
+    background-color:white;   
 }
 
 /* display */
-
 .top-nav{
     display: grid;
-    grid-template-columns: 2fr 2fr; 
-    
+    grid-template-columns: 2fr 2fr;   
 }
+
+/* Nav-bar separation */
 .top-nav.resources{
     padding-left: 500px;
 }
 
-
+/* nav-backg color and padding */
 .top-nav ul{
     list-style: none; 
     background-color: #466AC7;
-    padding: 10px;
+    padding: 20px;
 }
-
 
 /* hovering time and text color */
  .top-nav a{
-    /* display: block; */
+    display:ruby-base-container;
     color: white;
-    /* padding: 20px; */
-    transition: all 0.5s; 
+    padding: 18px;
+    transition: all 0.3s; 
     
    
 }
@@ -52,10 +50,8 @@ body{
     background-color: rgb(71, 170, 107);
 }
 
-/* Main */
-
 /* Title */
-
+/* display */
 .title{
     display: flex;
     justify-content: center;
@@ -63,25 +59,25 @@ body{
     margin: 5px;
     
 }
-.title{
-    background-color: var(--primary-color);
 
+/* backg color and margins/padding */
+.title{
+    /* background-color: var(--primary-color); */
     margin-right: 15%;
     margin-left: 15%;
     padding: 30px;
 
 }
+
 /* contents and main part of page */
-
-
 .container{
     display: grid;
-   
     grid-template-columns: 1fr 5fr;
-    background-color: azure;
+    /* background-color: azure; */
     gap: 20px;
     margin: 10px;
 }
+
 /* This is the precedence how to make changes to the contents withing the grid. 
 uncomment these to bring any changes. */
 /* .contents.contents-list{
@@ -90,25 +86,19 @@ uncomment these to bring any changes. */
 .contents.main-section{
     padding-top: 300px;
 } */
+
+/* grid padding/margin */
 .contents{
-    border: 2px solid rgb(158, 56, 154);
-    /* float: left; */
-    /* width: 30%; */
+    /* border: 2px solid rgb(158, 56, 154); */
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* margin-left: 10px;  */
 }
-
-
 
 :root{
     --primary-color:gold;
     --primary-color-contrast:gray;
 }
-
-
-
 
 /* footer */
 footer{
@@ -141,9 +131,7 @@ footer nav ul li a:hover{
 }
 footer nav ul li {
     padding: 15px;
-    margin-left: 40px;
-    
-    
+    margin-left: 40px; 
 }
 
 /* Social links */
