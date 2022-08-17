@@ -15,9 +15,8 @@ body{
     font-family:sans-serif;
     font-size: 18px;
     font-weight: 400;
-    background-color:white;   
+    background-color:white  
 }
-
 /* display */
 .top-nav{
     display: grid;
@@ -26,13 +25,13 @@ body{
 
 /* Nav-bar separation */
 .top-nav.resources{
-    padding-left: 450px;
+    padding-left: 430px;
 }
 
 /* nav-backg color and padding */
 .top-nav ul{
     list-style: none; 
-    background-color: #466AC7;
+    background-color: #949783;
     padding: 20px;
 }
 
@@ -65,7 +64,8 @@ body{
     /* background-color: var(--primary-color); */
     margin-right: 15%;
     margin-left: 15%;
-    padding: 30px;
+    padding-top: 20px ;
+    padding-bottom: 0px;
 
 }
 
@@ -96,13 +96,63 @@ uncomment these to bring any changes. */
 }
 
 :root{
-    --primary-color:gold;
+    --primary-color:rgba(153, 173, 102, 0.904);
     --primary-color-contrast:gray;
 }
+/*Intro Reading material  */
+.intro-paragraph{
+    text-indent: 30px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
 
+#meditating-women{
+    padding-left: 120px;
+}
+.contents.contents-list{
+    padding-top:150px;
+}
+.contents.contents-list #get-help{
+    font-size: 25px;
+    padding-left: 43px;
+    padding-bottom: 20px;
+}
+.contents.contents #helpline{
+    color:black;
+    /* background-color:rgb(164, 113, 41); */
+    display: block;
+    padding: 18px;
+    font-size: 19px;
+    line-height: 1.6;
+    text-decoration: none;
+    border: 8px solid var(--primary-color);
+    border-radius:40px;
+}
+.contents.contents-list #helpline:hover{
+    display: block;
+    color:rgb(168, 58, 178);
+    transition: all 0.4s;
+}
+
+/* Peace around World paragraph */
+.title-peace{
+    padding-left: 320px;
+    padding-top: 100px ;
+    padding-bottom: 15px;
+}
+
+#peace-para{
+    
+    padding-top: 5px;
+    line-height: 1.6;
+    text-indent: 25px;
+}
+#peace-video{
+   padding-left: 180px;
+}
 /* footer */
 footer{
-    background-color:#6fc587;
+    background-color:#949783;
  
 }
 footer ul{
