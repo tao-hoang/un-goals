@@ -1,11 +1,9 @@
-
+body{
+    background-color: azure;
+}
 :root{
     --primary-color:gold;
     --primary-color-contrast:gray;
-}
-.container{
-    
-    background-color: azure;
 }
 #chaker{
     padding: 20px;
