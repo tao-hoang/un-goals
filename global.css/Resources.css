@@ -3,12 +3,11 @@
     --primary-color:gold;
     --primary-color-contrast:gray;
 }
-.container{
+body{
     
     background-color: azure;
 }
 .title{
-    background-color: azure;
     padding: 30px;
 }
 h3{
