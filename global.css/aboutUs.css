@@ -1,35 +1,22 @@
 
 body{
-    background-color: azure;
+    background-color:whitesmoke;
 }
-#chaker{
-    padding: 20px;
-}
-#chakerImage{
-    padding:20px;
-    
-}
-#tao{
-    padding: 20px;
-}
-#taoImage{
-    padding: 20px;
-}
-#about{
-    background-color: rgb(204, 123, 25);
 
-   
-    top: 12%;
-    left: 35%;
-  
-    padding: 40px;
+.contents.main-section{
+    background-color: bisque;
+    opacity: 0.9;
+}
+
+#about{
+    
+    
+    padding: 30px;
+    margin-right: 50px;
     font-family: "poppins", sans-serif;
     font-weight: bold;
-   
+    
     font-size: 20px;
-    color: rgb(22, 21, 21);
+    color: rgba(21, 101, 132, 0.998);
 
-}
-img{
-    border: 5px solid rgb(95, 167, 108);
 }
