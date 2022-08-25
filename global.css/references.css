@@ -10,3 +10,10 @@
     
     background-color: azure;
 }
+a{
+    list-style: none;
+}
+.contents.main-section a{
+    text-decoration: none;
+    border-bottom: 5px solid gray;
+}

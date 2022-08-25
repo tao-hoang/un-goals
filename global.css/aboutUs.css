@@ -14,3 +14,23 @@ body{
 #taoImage{
     padding: 20px;
 }
+#about{
+    background-color: rgb(204, 123, 25);
+    
+   
+    top: 12%;
+    left: 35%;
+  
+    padding: 40px;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+   
+    font-size: 20px;
+    color: rgb(22, 21, 21);
+    border: 3px solid azure;
+    border-radius: 20px;
+
+}
+.contents.main-section{
+    border-radius: 10px;
+}
