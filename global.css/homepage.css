@@ -18,6 +18,9 @@ body{
     /* background-color:white;    */
 }
 /* display */
+.top-nav ul li a{
+    text-decoration: none;
+}
 .top-nav{
     display: grid;
     grid-template-columns: 2fr 2fr;   
@@ -150,6 +153,9 @@ uncomment these to bring any changes. */
    padding-left: 180px;
 }
 /* footer */
+.foot-nav ul li a{
+    text-decoration: none;
+}
 footer{
     background-color:#949783;
 }
